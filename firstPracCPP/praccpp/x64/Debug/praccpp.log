@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (praccpp.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  main.cpp
+C:\Users\maksm\Desktop\firstPracCPP\praccpp\main.cpp(66,53): warning C4309: =: усечение константного значения
+  praccpp.vcxproj -> C:\Users\maksm\Desktop\firstPracCPP\x64\Debug\firstPracCPP.exe

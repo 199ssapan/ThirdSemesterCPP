@@ -106,6 +106,16 @@ public:
 int main()
 {
 	List a;
+	for (int i = 0; i < 1000; i++)
+	{
+		a.insertElem(5);
+		a.insertElem(6);
+		a.insertElem(7);
+		a.printList();
+		a.deleteElement(5);
+		a.deleteElement(7);
+		a.printList();
+	}
 	a.insertElem(5);
 	a.insertElem(6);
 	a.insertElem(7);
@@ -113,6 +123,6 @@ int main()
 	a.deleteElement(5);
 	a.deleteElement(7);
 	a.printList();
-
+	
 	return 0;
 }

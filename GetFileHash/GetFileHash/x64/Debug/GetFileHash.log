@@ -1,4 +1,4 @@
 ﻿  gethash.cpp
-C:\Users\maksm\Desktop\GetFileHash\GetFileHash\gethash.cpp(83): warning C4715: WindowProcedure: значение возвращается не при всех путях выполнения
-C:\Users\maksm\Desktop\GetFileHash\GetFileHash\gethash.cpp(202): warning C4715: getHash: значение возвращается не при всех путях выполнения
-  GetFileHash.vcxproj -> C:\Users\maksm\Desktop\GetFileHash\x64\Debug\GetFileHash.exe
+C:\Users\maksm\Documents\repos\ThirdSemesterCPP\GetFileHash\GetFileHash\gethash.cpp(83): warning C4715: WindowProcedure: значение возвращается не при всех путях выполнения
+C:\Users\maksm\Documents\repos\ThirdSemesterCPP\GetFileHash\GetFileHash\gethash.cpp(202): warning C4715: getHash: значение возвращается не при всех путях выполнения
+  GetFileHash.vcxproj -> C:\Users\maksm\Documents\repos\ThirdSemesterCPP\GetFileHash\x64\Debug\GetFileHash.exe

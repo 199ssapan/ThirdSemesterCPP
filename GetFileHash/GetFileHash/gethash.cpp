@@ -30,7 +30,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR pCmdLine,
     wc.hInstance = hInstance;
     wc.lpszClassName = CLASS_NAME;
     RegisterClass(&wc);
-    hMainWindow = CreateWindowW(CLASS_NAME, L"Get Hash", WS_OVERLAPPEDWINDOW | WS_VISIBLE | WS_CLIPCHILDREN, 100, 100, 500, 500, NULL, NULL, NULL, NULL);
+    hMainWindow = CreateWindowW(CLASS_NAME, L"Get Hash", WS_OVERLAPPEDWINDOW | WS_VISIBLE | WS_CLIPCHILDREN, 100, 100, 300, 150, NULL, NULL, NULL, NULL);
 
     MSG msg = { };
     while (GetMessage(&msg, NULL, NULL, NULL))

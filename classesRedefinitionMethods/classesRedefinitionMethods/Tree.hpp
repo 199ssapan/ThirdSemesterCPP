@@ -4,6 +4,7 @@
 class Tree : Object
 {
 public:
-	virtual void Do() const override;
-	virtual void Draw() const override;
+	Tree();
+	virtual void Do()  override;
+	virtual void Draw()  override;
 };

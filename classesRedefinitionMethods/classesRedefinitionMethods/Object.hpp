@@ -3,6 +3,6 @@
 class Object
 {
 public:
-	virtual void Do() const = 0;
-	virtual void Draw() const = 0;
+	virtual void Do() = 0;
+	virtual void Draw() = 0;
 };

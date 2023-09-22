@@ -16,3 +16,5 @@ void Rat::Draw()
     std::cout << " (   |   )" << std::endl;
     std::cout << "  \\__|__/" << std::endl;
 }
+
+Rat :: Rat(){}

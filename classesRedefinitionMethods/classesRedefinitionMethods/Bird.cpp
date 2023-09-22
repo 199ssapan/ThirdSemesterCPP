@@ -4,7 +4,7 @@
 
 void Bird::Do()
 {
-	std::cout << "I am a bird!" << std::endl;
+	std::cout << "I am bird!" << std::endl;
 }
 
 void Bird::Draw()
@@ -18,3 +18,5 @@ void Bird::Draw()
     std::cout << "   /       \\" << std::endl;
     std::cout << "  /_________\\" << std::endl;
 }
+
+Bird::Bird() {}

@@ -1,12 +1,2 @@
 ﻿  Bird.cpp
-  Creature.cpp
-  main.cpp
-C:\Users\maksm\Desktop\classesRedefinitionMethods\classesRedefinitionMethods\Creature.hpp(3,16): error C2011: Creature: переопределение типа "class"
-C:\Users\maksm\Desktop\classesRedefinitionMethods\classesRedefinitionMethods\Creature.hpp(3,7): message : см. объявление "Creature"
-C:\Users\maksm\Desktop\classesRedefinitionMethods\classesRedefinitionMethods\Bird.hpp(5,1): error C2504: Creature: не определен базовый класс
-C:\Users\maksm\Desktop\classesRedefinitionMethods\classesRedefinitionMethods\Bird.hpp(7,15): error C3668: Bird::Do: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-C:\Users\maksm\Desktop\classesRedefinitionMethods\classesRedefinitionMethods\Bird.hpp(8,15): error C3668: Bird::Draw: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-  Object.cpp
-  Rat.cpp
-  Tree.cpp
-  Создание кода...
+  classesRedefinitionMethods.vcxproj -> C:\Users\maksm\Documents\repos\ThirdSemesterCPP\classesRedefinitionMethods\x64\Debug\classesRedefinitionMethods.exe

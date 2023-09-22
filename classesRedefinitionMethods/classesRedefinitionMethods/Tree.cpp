@@ -24,3 +24,5 @@ void Tree::Draw()
         std::cout << "|" << std::endl;
     }
 }
+
+Tree :: Tree(){}

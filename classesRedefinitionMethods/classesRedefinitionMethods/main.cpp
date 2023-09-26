@@ -13,10 +13,14 @@ int main() {
     objects.push_back((Object*)tree);
     objects.push_back((Object*)rat);
     objects.push_back((Object*)bird);
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < objects.size(); i++)
     {
         objects[i]->Do();
         objects[i]->Draw();
+    }
+    for (int i = 0; i < objects.size(); i++)
+    {
+        delete objects[i];
     }
     return 0;
 }

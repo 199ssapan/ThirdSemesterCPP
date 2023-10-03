@@ -4,8 +4,8 @@
 #include "Tree.hpp"
 #include "Bird.hpp"
 
-int main() {
-    
+int main() 
+{
     std::vector<Object*> objects = std::vector<Object*>();
     Tree* tree = (Tree*) new Tree();
     Rat* rat = (Rat*) new Rat();

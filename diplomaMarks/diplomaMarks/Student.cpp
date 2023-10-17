@@ -1,6 +1,15 @@
 #include "Student.hpp"
 #include <iostream>
 
+Student::Student()
+{
+	this->firstName = std::string("Иванов");
+	this->secondName = std::string("Иван");
+	this->thirdName = std::string("Иванович");
+	this->age = 18;
+	this->mark = 3;
+}
+
 Student::Student(std::string firstName, std::string secondName, std::string thirdName, std::string age, std::string mark)
 {
 	this->firstName = firstName;
@@ -17,6 +26,15 @@ Student::Student(Student* student)
 	this->thirdName = student->thirdName;
 	this->age = student->age;
 	this->mark = student->mark;
+}
+
+Student::Student(const Student& student)
+{
+	this->firstName = student.firstName;
+	this->secondName = student.secondName;
+	this->thirdName = student.thirdName;
+	this->age = student.age;
+	this->mark = student.mark;
 }
 
 std::string Student::GetFirstName()
